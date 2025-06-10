@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>STOCKHUB Landing Page</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      margin: 0;
+      display: flex;
+      height: 100vh;
+      background-color: #f4f4f4;
+    }
+
+    .left, .right {
+      padding: 40px;
+    }
+
+    .left {
+      width: 60%;
+      background-color: white;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      border-right: 1px solid #ccc;
+    }
+
+    .logo {
+      font-size: 48px;
+      font-weight: bold;
+      color: #bada55;
+      margin-bottom: 20px;
+    }
+
+    .buttons {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      margin: 30px 0;
+      width: 60%;
+    }
+
+    .button {
+      padding: 15px;
+      font-weight: bold;
+      color: white;
+      text-align: center;
+      text-decoration: none;
+      border-radius: 8px;
+      font-size: 16px;
+    }
+
+    .warehouse { background-color: #a2cc44; }
+    .market { background-color: #da4ca1; }
+    .restaurant { background-color: #2c9fdc; }
+    .logistics { background-color: #2980b9; }
+
+    .footer {
+      font-size: 12px;
+      color: #777;
+      margin-top: 40px;
+      text-align: center;
+    }
+
+    .resa {
+      font-size: 14px;
+      margin-top: 10px;
+    }
+
+    .right {
+      width: 40%;
+      background-color: #f9f9f9;
+    }
+
+    .right h1 {
+      color: #c0395f;
+      font-size: 24px;
+      border-bottom: 2px solid #c0395f;
+      padding-bottom: 10px;
+      margin-bottom: 20px;
+    }
+
+    .right p {
+      font-style: italic;
+      color: #555;
+    }
+
+    @media (max-width: 768px) {
+      body {
+        flex-direction: column;
+      }
+
+      .left, .right {
+        width: 100%;
+        padding: 20px;
+      }
+
+      .buttons {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="left">
+<img src="MarketLogo.png" alt="Market Logo" style="max-width: 150px; margin-bottom: 20px;" />
+<div class="logo">STOCK HUB</div>
+
+
+    <div class="buttons">
+      <a href="#" class="button warehouse">WAREHOUSE</a>
+      <a href="#" class="button market">MARKET(s)</a>
+      <a href="#" class="button restaurant">RESTAURANT(s)</a>
+      <a href="#" class="button logistics">LOGISTICS</a>
+    </div>
+
+    <div class="resa">Zighoud Youcef STOCKHUB © 2025<br />
+      <span class="footer">SERVICE · LEADERSHIP · COLLABORATION · EXCELLENCE</span>
+    </div>
+  </div>
+
+  <div class="right">
+    <h1>Eastern District</h1>
+    <p>No Current Announcements</p>
+  </div>
+</body>
+</html>
