@@ -2,7 +2,7 @@
 
 # Inventory Software Sitemap
 
-- **Dashboard**
+- #**Dashboard**#
   - Overview (stock levels, alerts, recent activity)
   - Key metrics (out-of-stock, low stock, incoming orders)
 
