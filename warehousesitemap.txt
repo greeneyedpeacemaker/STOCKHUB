@@ -1,0 +1,75 @@
+
+
+# Inventory Software Sitemap
+
+- **Dashboard**
+  - Overview (stock levels, alerts, recent activity)
+  - Key metrics (out-of-stock, low stock, incoming orders)
+
+- **Products**
+  - Product List
+  - Add/Edit Product
+  - Categories/Subcategories
+  - Product Variants (size, color, etc.)
+  - Barcodes / SKUs
+
+- **Inventory**
+  - Stock Levels
+  - Stock Movements
+    - Stock In (receiving, restocking)
+    - Stock Out (sales, wastage, adjustments)
+  - Location Management (warehouses, shelves)
+  - Batch/Lot Tracking
+  - Serial Number Tracking
+
+- **Purchasing**
+  - Purchase Orders
+    - Create/Edit PO
+    - Supplier Selection
+    - Order Status
+  - Goods Receipt
+  - Supplier Management
+  - Supplier Returns
+
+- **Sales**
+  - Sales Orders
+    - Create/Edit SO
+    - Customer Selection
+    - Order Status
+  - Shipments
+  - Invoices
+  - Customer Management
+  - Sales Returns
+
+- **Reports**
+  - Inventory Reports (stock valuation, aging, etc.)
+  - Sales Reports
+  - Purchase Reports
+  - Movement/Transaction Logs
+  - Audit Trails
+
+- **Integrations**
+  - Accounting Software
+  - eCommerce Platforms
+  - Barcode Scanners
+  - APIs
+
+- **Settings**
+  - User Management & Roles
+  - System Configuration
+  - Alerts/Notifications
+  - Data Import/Export
+  - Preferences
+
+- **Help / Support**
+  - Documentation
+  - Tutorials
+  - Contact Support
+
+---
+
+*Optional Add-ons/Modules:*
+- Multi-warehouse Support
+- Manufacturing/BOM
+- Mobile App Interface
+- Custom Fields/Attributes
